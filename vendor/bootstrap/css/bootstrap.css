@@ -5595,7 +5595,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .embed-responsive::before {
-  display: block;
+  /* display: block; */
   content: "";
 }
 
