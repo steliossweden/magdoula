@@ -28,7 +28,22 @@
     <div class="tagline-upper text-center text-shadow text-white mt-5 d-none d-lg-block"><h1>ΜΑΓΔΑ ΠΕΡΙΒΟΛΑΡΗ</h1></div>
     <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">Ψυχοθεραπευτρια Gestalt</div>
     <div style="background-color: white; margin-bottom: 50px">
-      <img src="img/test.png" style="width: 50%; height: 250px; margin-left: 20%">
+      <img id = "mobile" src="img/test.png">
+      <style type="text/css">
+        #mobile{
+          width: 50%; 
+          height: 300px; 
+          margin-left: 25%;
+        }
+        @media (max-width: 700px){
+          #mobile{
+            width: 100%; 
+            height: 200px; 
+            margin-left: 0px;
+
+          }
+        };
+      </style>
     </div>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
